@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="719" height="371" viewBox="0 0 719 371">
+  <g id="blanked" transform="translate(-1686 -250)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(1686 250)" stroke="#707070" stroke-width="1">
+      <rect width="719" height="371" rx="9" stroke="none"/>
+      <rect x="0.5" y="0.5" width="718" height="370" rx="8.5" fill="none"/>
+    </g>
+    <path id="Rectangle_2" data-name="Rectangle 2" d="M9,0H710a9,9,0,0,1,9,9V28a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9A9,9,0,0,1,9,0Z" transform="translate(1686 250)" fill="#292929"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="8.5" cy="9" rx="8.5" ry="9" transform="translate(1695 255)" fill="#fc5b57"/>
+    <path id="Path_1" data-name="Path 1" d="M8.4,0A8.4,8.4,0,1,1,0,8.4,8.4,8.4,0,0,1,8.4,0Z" transform="translate(1718.944 255.379)" fill="#e5bf3c"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="8" cy="9" rx="8" ry="9" transform="translate(1744 255)" fill="#57c038"/>
+    <text id="blanked-2" data-name="blanked" transform="translate(2016 271)" fill="#979797" font-size="17" font-family="Helvetica"><tspan x="0" y="0">blanked</tspan></text>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="699" height="328" transform="translate(1696 278)" fill="#6366f1"/>
+    <path id="Path_2" data-name="Path 2" d="M10.673,28.9s257.721,20.277,312.57,77.346,51.775,124.609,162.182,140.646S708.756,356.012,708.756,356.012l-.333-327.526Z" transform="translate(1686 250)" fill="#fff" opacity="0.091"/>
+    <text id="_About_Me_" data-name="&lt;About_Me/&gt;" transform="translate(1901 452)" fill="#fff" font-size="46" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">&lt;About_Me/&gt;</tspan></text>
+  </g>
+</svg>
