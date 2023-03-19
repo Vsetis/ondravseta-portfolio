@@ -1,17 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+  darkMode: 'class',
  
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      
+  purge: {
+    enabled: true,
+    content: ['./src/**/*.tsx'],
+    options: {
+      safelist: ['dark'], //specific classes
     },
   },
-  plugins: [],
+  theme: {
+    extend: {
+      typography: (theme) => ({
+        dark: {
+          css: {
+            color: 'white',
+          },
+        },
+      }),
+      extend: {},
+    },
+  },
+  plugins: [require('@tailwindcss/typography')],
 }

@@ -16,7 +16,8 @@ export default function Zubri() {
           <Link
             className="flex items-center"
             href="https://www.hczubri.cz/"
-            target="_blank">
+            target="_blank"
+          >
             <FiLink className="w-5 h-5 mr-2" /> Odkaz na web
           </Link>
         </div>

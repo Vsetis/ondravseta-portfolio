@@ -19,7 +19,7 @@ export default function Contact() {
     <>
       <div
         id="Contact"
-        className="bg-indigo-500 pt-[42px] pb-[16px] px-5 md:px-0"
+        className="bg-indigo-500 pt-[42px] pb-[16px] px-5 md:px-0 w-full"
       >
         <div className="container mx-auto flex md:flex-row flex-col justify-between">
           <div className="flex flex-col mb-8 md:mb-0">
@@ -51,11 +51,11 @@ export default function Contact() {
             <div className="flex flex-row md:self-end">
               {socials.map((social) => (
                 <Link key={social.id} href={social.target}>
-                  <social.icon className="w-8 h-8 md:ml-2 md:mt-0  mt-8" />
+                  <social.icon className="w-8 h-8 md:ml-2 md:mt-0  mt-8 mr-5 md:mr-0" />
                 </Link>
               ))}
             </div>
-            <div className="w-full h-[2px] md:my-8 my-4 bg-black" />
+            <div className="w-full h-[2px] md:my-8 my-4 bg-black dark:bg-white" />
             <h2>©2023 Ondřej Všetička</h2>
           </div>
         </div>
