@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <div className=" container mx-auto flex md:flex-row flex-col items-center md:items-start justify-between  md:py-40 pt-32">
         <div className="flex flex-col items-center md:items-start">
-          <h1 className="leading-tight relative  text-center md:text-start text-4xl md:text-6xl font-bold ">
+          <h1 className="leading-tight relative  md:text-start text-4xl md:text-6xl font-bold text-center ">
             <span className='before:absolute  before:text-center before:content-["Jsem_Designér"] '>
               <span
                 className={`${Style.AnimatedText} bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent`}
@@ -20,7 +20,10 @@ const Hero = () => {
               </span>
             </span>
             <br />
-            <span className='before:absolute  before:content-["a_Front-End_Developer"] '>
+            <span
+              className='before:absolute 
+            before:left-0 before:content-["a_Front-End_Developer"]  '
+            >
               <span
                 className={`${Style.AnimatedText2} bg-gradient-to-r from-black to-sky-600 dark:from-white dark:to-sky-600 bg-clip-text text-transparent`}
               >
