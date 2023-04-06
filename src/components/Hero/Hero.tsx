@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <>
       <div className=" container mx-auto flex md:flex-row flex-col items-center md:items-start justify-between  md:py-40 pt-32">
-        <div className="flex flex-col items-center md:items-start">
-          <h1 className="leading-tight relative  md:text-start text-4xl md:text-6xl font-bold text-center ">
-            <span className='before:absolute  before:text-center before:content-["Jsem_Designér"] '>
+        <div className="flex flex-col items-end md:items-start">
+          <h1 className="leading-tight relative md:text-start text-5xl md:text-6xl font-bold  ">
+            <span className='before:absolute  before:content-["Jsem_Designér"] '>
               <span
                 className={`${Style.AnimatedText} bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent`}
               >
@@ -31,7 +31,7 @@ const Hero = () => {
               </span>
             </span>
           </h1>
-          <p className="md:text-lg text-base md:text-start text-center dark:text-white text-black/70 font-semibold mt-3 mb-8 md:max-w-[60%]">
+          <p className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 md:max-w-[60%]">
             Proměním Váš web v moderní a přehlednou vizitku Vaši společnosti
             nebo osoby.
           </p>
