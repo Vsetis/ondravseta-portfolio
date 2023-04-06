@@ -1,6 +1,6 @@
 import styles from "@/styles/Animation.module.css";
+import Style from "@/styles/Text.module.css";
 import Link from "next/link";
-import { useState } from "react";
 
 const Hero = () => {
   const buttons = [
@@ -11,19 +11,28 @@ const Hero = () => {
     <>
       <div className=" container mx-auto flex md:flex-row flex-col items-center md:items-start justify-between  md:py-40 pt-32">
         <div className="flex flex-col items-center md:items-start">
-          <div className="flex flex-row items-center md:justify-start justify-center">
-            <div className="bg-indigo-500 w-8 h-0.5 mr-2" />
-            <h2 className="font-semibold text-xs text-indigo-500">HOME</h2>
-            <div className="bg-indigo-500 w-8 h-0.5 ml-2 md:hidden" />
-          </div>
-          <h1 className="md:text-6xl text-4xl mb-14 text-center md:text-start leading-[1.3] font-bold text-transparent bg-gradient-to-r from-indigo-500 to-black bg-clip-text dark:to-white">
-            Jsem Designér <br />a Front-end Developer
+          <h1 className="leading-tight relative  text-center md:text-start text-4xl md:text-6xl font-extrabold ">
+            <span className='before:absolute  before:text-center before:content-["Jsem_Designér"] '>
+              <span
+                className={`${Style.AnimatedText} bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent`}
+              >
+                Jsem Designér
+              </span>
+            </span>
+            <br />
+            <span className='before:absolute  before:content-["a_Front-End_Developer"] '>
+              <span
+                className={`${Style.AnimatedText2} bg-gradient-to-r from-black to-sky-600 dark:from-white dark:to-sky-600 bg-clip-text text-transparent`}
+              >
+                a Front-End Developer
+              </span>
+            </span>
           </h1>
-          <p className="md:text-lg text-md md:text-start text-center dark:text-white text-black/70 font-semibold mb-12">
-            Dobrý den, jmenuji se Ondřej Všetička. Jsem Webový designér a
-            Front-end developer
+          <p className="md:text-lg text-base md:text-start text-center dark:text-white text-black/70 font-semibold mt-3 mb-8 md:max-w-[60%]">
+            Proměním Váš web v moderní a přehlednou vizitku Vaši společnosti
+            nebo osoby.
           </p>
-          <div className="flex justify-between">
+          <div className="flex justify-between relative">
             {buttons.map((button) => (
               <Link
                 className="md:mr-4 ml-4 md:ml-0 px-8 py-2 rounded-full bg-indigo-500 text-white last:bg-black dark:last:bg-white/80 dark:text-black"

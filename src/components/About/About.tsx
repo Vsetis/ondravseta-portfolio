@@ -14,9 +14,9 @@ export default function About() {
       <div id="About" className="container mx-auto  px-5 md:px-0 py-[128px]">
         <div className="flex flex-col">
           <div className="flex flex-row items-center md:justify-start justify-center">
-            <div className="bg-indigo-500 w-8 h-0.5 mr-2" />
-            <h2 className="font-semibold text-xs text-indigo-500">ABOUT</h2>
-            <div className="bg-indigo-500 w-8 h-0.5 ml-2 md:hidden" />
+            <div className="bg-indigo-500 w-4 h-0.5 mr-2" />
+            <h2 className="font-semibold text-xs text-indigo-500">O MNĚ</h2>
+            <div className="bg-indigo-500 w-4 h-0.5 ml-2 md:hidden" />
           </div>
 
           <div className="flex flex-col md:flex-row justify-between ">

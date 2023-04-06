@@ -6,9 +6,9 @@ import ChangeTheme from "../ChangeTheme";
 export default function Links() {
   const links = [
     { name: "Home", target: "#", id: 1 },
-    { name: "About", target: "#About", id: 2 },
-    { name: "Projects", target: "#Projects", id: 3 },
-    { name: "Contact", target: "#Contact", id: 4 },
+    { name: "O Mně", target: "#About", id: 2 },
+    { name: "Portfolio", target: "#Projects", id: 3 },
+    { name: "Kontakt", target: "#Contact", id: 4 },
   ];
 
   const [show, setShow] = useState(false);
@@ -39,9 +39,9 @@ export default function Links() {
         className={show ? "flex md:hidden" : "md:hidden flex"}
       >
         {show ? (
-          <HiXMark className="w-12 h-12 absolute right-5 top-8" />
+          <HiXMark className="w-8 h-8 absolute right-5 top-8" />
         ) : (
-          <HiOutlineBars2 className="w-12 h-12 absolute right-5 top-8" />
+          <HiOutlineBars2 className="w-8 h-8 absolute right-5 top-8" />
         )}
       </button>
     </>

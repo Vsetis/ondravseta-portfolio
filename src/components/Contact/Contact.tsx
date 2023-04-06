@@ -19,7 +19,7 @@ export default function Contact() {
     <>
       <div
         id="Contact"
-        className="bg-indigo-500 pt-[42px] pb-[16px] px-5 md:px-0 w-full"
+        className="bg-indigo-500 pt-[42px] pb-[16px] px-8  w-full"
       >
         <div className="container mx-auto flex md:flex-row flex-col justify-between">
           <div className="flex flex-col mb-8 md:mb-0">
