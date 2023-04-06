@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <div className=" container mx-auto flex md:flex-row flex-col items-center md:items-start justify-between  md:py-40 pt-32">
         <div className="flex flex-col items-center md:items-start">
-          <h1 className="leading-tight relative  text-center md:text-start text-4xl md:text-6xl font-extrabold ">
+          <h1 className="leading-tight relative  text-center md:text-start text-4xl md:text-6xl font-bold ">
             <span className='before:absolute  before:text-center before:content-["Jsem_Designér"] '>
               <span
                 className={`${Style.AnimatedText} bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent`}
