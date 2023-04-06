@@ -19,22 +19,22 @@
   </g>
   <rect id="Image_3" data-name="Image 3" width="173" height="94" transform="translate(176 24)" fill="url(#pattern)"/>
   <g id="links">
-    <text id="ÚVOD" transform="translate(434 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">ÚVOD</tspan></text>
-    <text id="UBYTOVÁNÍ" transform="translate(566 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">UBYTOVÁNÍ</tspan></text>
-    <text id="CENÍK" transform="translate(777 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CENÍK</tspan></text>
-    <text id="AKTUÁLNĚ_Z_KEMPU" data-name="AKTUÁLNĚ Z KEMPU" transform="translate(910 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">AKTUÁLNĚ Z KEMPU</tspan></text>
-    <text id="VÝLETY_PO_OKOLÍ" data-name="VÝLETY PO OKOLÍ" transform="translate(1236 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">VÝLETY PO OKOLÍ</tspan></text>
-    <text id="FOTOGALERIE" transform="translate(1523 83)" fill="#582808" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">FOTOGALERIE</tspan></text>
+    <text id="ÚVOD" transform="translate(434 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">ÚVOD</tspan></text>
+    <text id="UBYTOVÁNÍ" transform="translate(566 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">UBYTOVÁNÍ</tspan></text>
+    <text id="CENÍK" transform="translate(777 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">CENÍK</tspan></text>
+    <text id="AKTUÁLNĚ_Z_KEMPU" data-name="AKTUÁLNĚ Z KEMPU" transform="translate(910 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">AKTUÁLNĚ Z KEMPU</tspan></text>
+    <text id="VÝLETY_PO_OKOLÍ" data-name="VÝLETY PO OKOLÍ" transform="translate(1236 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">VÝLETY PO OKOLÍ</tspan></text>
+    <text id="FOTOGALERIE" transform="translate(1523 83)" fill="#582808" font-size="28" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">FOTOGALERIE</tspan></text>
   </g>
   <g id="Group_1" data-name="Group 1">
-    <text id="KEMP_POD_PUSTEVNAMI" data-name="KEMP POD PUSTEVNAMI" transform="translate(485 286)" fill="#fff" font-size="80" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">KEMP POD PUSTEVNAMI</tspan></text>
-    <text id="celoroční_ubytování_v_srdci_Beskyd" data-name="celoroční ubytování v srdci Beskyd" transform="translate(680 406)" fill="#fff" font-size="36" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">celoroční ubytování v srdci Beskyd</tspan></text>
+    <text id="KEMP_POD_PUSTEVNAMI" data-name="KEMP POD PUSTEVNAMI" transform="translate(485 286)" fill="#fff" font-size="80" font-family="Inter, sans-serif" font-weight="700"><tspan x="0" y="0">KEMP POD PUSTEVNAMI</tspan></text>
+    <text id="celoroční_ubytování_v_srdci_Beskyd" data-name="celoroční ubytování v srdci Beskyd" transform="translate(680 406)" fill="#fff" font-size="36" font-family="Inter, sans-serif" font-weight="600"><tspan x="0" y="0">celoroční ubytování v srdci Beskyd</tspan></text>
     <g id="btn" transform="translate(35.867 23)">
       <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(703.133 559)" fill="#71a61d" stroke="#707070" stroke-width="1" opacity="0.77">
         <rect width="442" height="134" stroke="none"/>
         <rect x="0.5" y="0.5" width="441" height="133" fill="none"/>
       </g>
-      <text id="rezervace-online" transform="translate(787.133 638)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">REZERVACE-ONLINE</tspan></text>
+      <text id="rezervace-online" transform="translate(787.133 638)" fill="#fff" font-size="30" font-family="Inter, sans-serif"><tspan x="0" y="0">REZERVACE-ONLINE</tspan></text>
     </g>
   </g>
   <g id="Group_2" data-name="Group 2" transform="translate(110.726 -27)">

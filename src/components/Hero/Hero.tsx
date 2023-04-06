@@ -37,13 +37,9 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className={`${styles.animatedImg} !border-[8px] dark:border-white/90 border-black bg-black w-[350px] h-[350px] md:w-[450px] md:h-[450px] relative   overflow-hidden my-16 md:my-0 `}
+          className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black bg-black w-[350px] h-[350px] md:w-[450px] md:h-[450px] relative   overflow-hidden my-16 md:my-0 `}
         >
-          <img
-            src="/landing-profile.jpg"
-            className="h-full absolute top-[-64px] w-full"
-            alt=""
-          />
+          <img src="/me.jpg" className="h-full  w-full" alt="Ondrej_Vseticka" />
         </div>
       </div>
     </>
