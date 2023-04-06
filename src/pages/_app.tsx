@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
           type: "website",
           locale: "en_IE",
           url: "https://www.ondrejvseticka.cz/",
-          siteName: "OndrejVseticka",
+          siteName: "Ondřej Všetička",
         }}
         twitter={{
           handle: "@handle",
