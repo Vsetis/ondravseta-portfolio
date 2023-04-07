@@ -43,7 +43,7 @@ export default function About() {
               <div className="md:w-[25%] w-[75%] h-[2px] bg-black dark:bg-white/90 mb-8" />
               <div className="flex text-black/70 dark:text-white/80 items-center gap-12">
                 {skills.map((skill) => (
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col items-center" key={skill.title}>
                     <skill.icon className="w-14 h-14" />
                     <p className="text-center font-bold text-xs">
                       {skill.title}
