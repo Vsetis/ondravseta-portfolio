@@ -1,12 +1,9 @@
 import Link from "next/link";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { MdEmail, MdPhoneIphone } from "react-icons/md";
+import { BiArrowFromBottom } from "react-icons/bi";
 export default function Contact() {
-  const links = [
-    { name: "Home", target: "#" },
-    { name: "Projects", target: "#Projects", id: 1 },
-    { name: "Contact", target: "#Contact", id: 2 },
-  ];
+  const links = [{ name: "", target: "#" }];
   const socials = [
     { target: "https://github.com/Vsetis", icon: AiFillGithub, id: 1 },
     {
@@ -15,11 +12,18 @@ export default function Contact() {
       id: 2,
     },
   ];
+  function scroll() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     <>
       <div
         id="Contact"
-        className="bg-indigo-500 pt-[42px] pb-[16px] px-8  w-full"
+        className="dark:bg-black border-t border-black/20 dark:border-white/20 pt-[42px] pb-[16px] px-8  w-full"
       >
         <div className="container mx-auto flex md:flex-row flex-col justify-between">
           <div className="flex flex-col mb-8 md:mb-0">
@@ -37,15 +41,9 @@ export default function Contact() {
             </Link>
           </div>
           <div className="flex flex-row">
-            {links.map((link) => (
-              <Link
-                key={link.id}
-                href={link.target}
-                className=" font-semibold text-lg  mr-4"
-              >
-                {link.name}
-              </Link>
-            ))}
+            <button onClick={scroll}>
+              <BiArrowFromBottom className="dark:bg-white/60 bg-black/80 text-white dark:text-black hover:bg-black dark:hover:bg-white/80 transition-all duration-300  w-12 h-12 rounded-full p-2" />
+            </button>
           </div>
           <div className="flex flex-col  justify-between">
             <div className="flex flex-row md:self-end">

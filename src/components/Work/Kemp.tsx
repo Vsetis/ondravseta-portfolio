@@ -7,7 +7,7 @@ export default function Kemp() {
       <div className="flex md:flex-row flex-col justify-between my-12">
         <div className="order-2 md:order-1">
           <img
-            className="w-[650px] rounded-[15px]"
+            className="w-[500px] rounded-[15px]"
             src="/Kemp.svg"
             alt="HC_Zubri"
           />

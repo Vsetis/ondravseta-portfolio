@@ -11,12 +11,14 @@ export default function About() {
   ];
   return (
     <>
-      <div id="About" className="container mx-auto  px-5 md:px-0 py-[128px]">
+      <div id="About" className="container mx-auto  px-8 md:px-0 py-[128px]">
         <div className="flex flex-col">
           <div className="flex flex-row items-center md:justify-start justify-center">
-            <div className="bg-indigo-500 w-4 h-0.5 mr-2" />
-            <h2 className="font-semibold text-xs text-indigo-500">O MNĚ</h2>
-            <div className="bg-indigo-500 w-4 h-0.5 ml-2 md:hidden" />
+            <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 mr-2" />
+            <h2 className="font-semibold text-xs text-zinc-700 dark:text-white/30 ">
+              O MNĚ
+            </h2>
+            <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 ml-2 md:hidden" />
           </div>
 
           <div className="flex flex-col md:flex-row justify-between ">
@@ -35,30 +37,20 @@ export default function About() {
                   nejmodernějších technologií.
                 </p>
               </div>
-              <div className="flex flex-row items-center justify-center md:justify-start mt-8 mb-8 md:mb-0">
-                <h2 className="font-bold text-xs text-black/70 dark:text-white">
-                  SKILLS
-                </h2>
-                <div className="h-[16px] w-0.5 bg-black/70 dark:bg-white ml-2 " />
-                <div className="flex flex-row">
-                  {skills.map((skill) => (
-                    <div
-                      key={skill.id}
-                      className="flex flex-col items-center mx-2 text-xs text-center text-sky-500 [&:nth-child(2)]:text-teal-500 [&:nth-child(3)]:text-orange-500 last:text-slate-700 dark:last:text-slate-300"
-                    >
-                      <skill.icon className="w-6 h-6 " />
-                      {skill.title}
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
-            <div>
-              <img
-                className="rounded-[15px] md:max-w-[550px]"
-                src="/about.svg"
-                alt="about_me"
-              />
+            <div className="flex flex-col items-center md:items-end mt-8 md:mt-0">
+              <h2 className="text-end text-4xl font-bold">Mé zkušenosti</h2>
+              <div className="md:w-[25%] w-[75%] h-[2px] bg-black dark:bg-white/90 mb-8" />
+              <div className="flex text-black/70 dark:text-white/80 items-center gap-12">
+                {skills.map((skill) => (
+                  <div className="flex flex-col items-center">
+                    <skill.icon className="w-14 h-14" />
+                    <p className="text-center font-bold text-xs">
+                      {skill.title}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
