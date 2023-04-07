@@ -7,7 +7,6 @@ export default function Links() {
   const links = [
     { name: "Home", target: "#", id: 1 },
     { name: "O Mně", target: "#About", id: 2 },
-    { name: "Služby", target: "#Services", id: 3 },
     { name: "Portfolio", target: "#Projects", id: 4 },
     { name: "Kontakt", target: "#Contact", id: 5 },
   ];
