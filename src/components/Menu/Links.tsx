@@ -6,7 +6,7 @@ import ChangeTheme from "../ChangeTheme";
 export default function Links() {
   const links = [
     { name: "Home", target: "#", id: 1 },
-    { name: "O Mně", target: "#About", id: 2 },
+    { name: "O mně", target: "#About", id: 2 },
     { name: "Portfolio", target: "#Projects", id: 4 },
     { name: "Kontakt", target: "#Contact", id: 5 },
   ];
@@ -19,15 +19,13 @@ export default function Links() {
           show
             ? "flex flex-col md:flex-row border-t text-white mt-4"
             : "hidden md:flex"
-        } relative`}
-      >
+        } relative`}>
         {links.map((link) => (
           <Link
             key={link.id}
             href={link.target}
             className="text-md mr-8 my-6 text-center md:text-start"
-            scroll={false}
-          >
+            scroll={false}>
             {link.name}
           </Link>
         ))}
@@ -36,8 +34,7 @@ export default function Links() {
 
       <button
         onClick={() => setShow(!show)}
-        className={show ? "flex md:hidden" : "md:hidden flex"}
-      >
+        className={show ? "flex md:hidden" : "md:hidden flex"}>
         {show ? (
           <HiXMark className="w-8 h-8 absolute right-5 top-8" />
         ) : (

@@ -2,6 +2,7 @@ import { DiReact } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { AiFillHtml5 } from "react-icons/ai";
+import { motion } from "framer-motion";
 export default function About() {
   const skills = [
     { title: " ReactJS 60%", icon: DiReact, id: 1 },
@@ -11,8 +12,15 @@ export default function About() {
   ];
   return (
     <>
-      <div id="About" className="container mx-auto  px-8 md:px-0 py-[128px]">
-        <div className="flex flex-col">
+      <motion.div
+        id="About"
+        className="container mx-auto  px-8 md:px-0 py-[128px]">
+        <motion.div
+          initial={{ opacity: 0, y: "50%" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="flex flex-col">
           <div className="flex flex-row items-center md:justify-start justify-center">
             <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 mr-2" />
             <h2 className="font-semibold text-xs text-zinc-700 dark:text-white/30 ">
@@ -53,8 +61,8 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   );
 }
