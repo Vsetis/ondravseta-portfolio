@@ -21,7 +21,7 @@ export default function WordPressMore() {
               transition={{ delay: 1, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h3 className="dark:text-white font-semibold">1. Bezpčenost</h3>
+              <h3 className="dark:text-white font-semibold">1. Bezpečnost</h3>
               <p className="mb-2">
                 WordPress je často cílem útoků hackerů, což způsobuje
                 zranitelnost stránek pro ztrátu dat a informací. To může mít
