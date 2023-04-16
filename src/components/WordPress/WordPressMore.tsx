@@ -10,7 +10,7 @@ export default function WordPressMore() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="text-4xl  font-bold mb-8 text-center md:text-start"
+            className="text-2xl md:text-4xl  font-bold mb-8 text-center md:text-start"
           >
             Nevýhody WordPressu a podobných systémů
           </motion.h2>

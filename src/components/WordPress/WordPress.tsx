@@ -9,11 +9,11 @@ export default function WordPress() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.5 }}
         viewport={{ once: true }}
-        className="container py-32 flex justify-between flex-col md:flex-row  mx-auto px-8"
+        className="container md:my-32 mb-16 flex md:justify-between md:items-start items-center flex-col md:flex-row  mx-auto px-8"
       >
         <div className="md:mr-32">
-          <h2 className="text-4xl font-bold mb-4">
-            Vyhněte se WordPressu <br /> a podobným systémům!
+          <h2 className=" text-2xl md:text-4xl font-bold mb-4 ">
+            Vyhněte se WordPressu a podobným systémům!
           </h2>
           <div className="text-black/70 dark:text-white/80 ">
             <p className="mb-2">
@@ -34,7 +34,11 @@ export default function WordPress() {
           </div>
         </div>
         <div>
-          <img className="max-w-[500px]" src="WP.svg" alt="WordPress" />
+          <img
+            className="max-w-[350px] md:max-w-[500px] mt-16 md:mt-0"
+            src="WP.svg"
+            alt="WordPress"
+          />
         </div>
       </motion.div>
     </>
