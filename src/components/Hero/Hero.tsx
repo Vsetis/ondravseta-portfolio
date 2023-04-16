@@ -20,11 +20,11 @@ const Hero = () => {
         >
           <div className="flex flex-col items-end md:items-start">
             <h1 className="leading-tight relative md:text-start text-5xl md:text-6xl font-bold  ">
-              <span className='before:absolute  before:content-["Jsem_Designér"] '>
+              <span className='before:absolute  before:content-["Jsem_Web_Designér"] '>
                 <span
                   className={`${Style.AnimatedText} bg-gradient-to-r from-[#576CBC] to-purple-600 bg-clip-text text-transparent`}
                 >
-                  Jsem Designér
+                  Jsem Web Designér
                 </span>
               </span>
               <br />
