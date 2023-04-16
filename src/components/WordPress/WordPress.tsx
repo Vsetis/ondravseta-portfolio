@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function WordPress() {
   return (
     <>
@@ -34,10 +34,12 @@ export default function WordPress() {
           </div>
         </div>
         <div>
-          <img
+          <Image
             className="max-w-[350px] md:max-w-[500px] mt-16 md:mt-0"
             src="WP.svg"
             alt="WordPress"
+            width={500}
+            height={500}
           />
         </div>
       </motion.div>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 export default function WordPressMore() {
   return (
     <>
@@ -166,7 +166,13 @@ export default function WordPressMore() {
           viewport={{ once: true }}
           className="max-w-[600px] mt-16 md:mt-0"
         >
-          <img className="w-full" src="WP.svg" alt="WordPress" />
+          <Image
+            width={500}
+            height={500}
+            className="w-full"
+            src="WP.svg"
+            alt="WordPress"
+          />
         </motion.div>
       </div>
     </>

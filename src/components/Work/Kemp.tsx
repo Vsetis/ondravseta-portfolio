@@ -1,15 +1,17 @@
 import Link from "next/link";
 import { FiLink } from "react-icons/fi";
-
+import Image from "next/image";
 export default function Kemp() {
   return (
     <>
       <div className="flex md:flex-row flex-col justify-between my-12">
         <div className="order-2 md:order-1">
-          <img
+          <Image
             className="w-[500px] rounded-[15px]"
             src="/Kemp.svg"
             alt="HC_Zubri"
+            width={500}
+            height={500}
           />
         </div>
         <div className="mb-8 order-1 md:order-2 md:ml-16">
