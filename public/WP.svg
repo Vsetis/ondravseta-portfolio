@@ -9,7 +9,7 @@
       <circle id="Ellipse_1" data-name="Ellipse 1" cx="8" cy="8" r="8" transform="translate(6.738 9.361)" fill="#2f9e44"/>
       <circle id="Ellipse_2" data-name="Ellipse 2" cx="8" cy="8" r="8" transform="translate(28.738 9.361)" fill="#f08c00"/>
       <circle id="Ellipse_3" data-name="Ellipse 3" cx="8" cy="8" r="8" transform="translate(50.738 9.361)" fill="#e03131"/>
-      <text id="WordPress" transform="translate(568.738 23.361)" fill="#b1b1b1" font-size="18" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">WordPress</tspan></text>
+      <text id="WordPress" transform="translate(568.738 23.361)" fill="#b1b1b1" font-size="18" font-family="Inter, sans-serif" font-weight="600"><tspan x="0" y="0">WordPress</tspan></text>
     </g>
     <g id="WP-logo" transform="translate(1189.768 408.63)">
       <path id="Path_1" data-name="Path 1" d="M8.708,72.209A79.471,79.471,0,0,0,53.489,143.72L15.587,39.872A79.155,79.155,0,0,0,8.708,72.209Z" transform="translate(4.458 20.411)" fill="#464342"/>

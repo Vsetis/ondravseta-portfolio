@@ -14,13 +14,15 @@ export default function About() {
     <>
       <motion.div
         id="About"
-        className="container mx-auto  px-8 md:px-0 py-[128px]">
+        className="container mx-auto  px-8 md:px-0 py-[128px]"
+      >
         <motion.div
           initial={{ opacity: 0, y: "50%" }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="flex flex-col">
+          className="flex flex-col"
+        >
           <div className="flex flex-row items-center md:justify-start justify-center">
             <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 mr-2" />
             <h2 className="font-semibold text-xs text-zinc-700 dark:text-white/30 ">
@@ -52,7 +54,7 @@ export default function About() {
               <div className="flex text-black/70 dark:text-white/80 items-center gap-12">
                 {skills.map((skill) => (
                   <div className="flex flex-col items-center" key={skill.title}>
-                    <skill.icon className="w-14 h-14" />
+                    <skill.icon className="md:w-14 md:h-14 w-8 h-8" />
                     <p className="text-center font-bold text-xs">
                       {skill.title}
                     </p>
