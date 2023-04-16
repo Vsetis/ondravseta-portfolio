@@ -6,7 +6,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 export default function About() {
   const skills = [
-    { title: " NextJs", icon: TbBrandNextjs, id: 1 },
+    { title: " NextJS", icon: TbBrandNextjs, id: 1 },
     { title: " TailwindCSS", icon: SiTailwindcss, id: 2 },
     { title: " HTML", icon: AiFillHtml5, id: 3 },
     { title: " MySQL", icon: GrMysql, id: 4 },
