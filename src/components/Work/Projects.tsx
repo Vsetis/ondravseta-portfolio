@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Kemp from './Kemp';
+import Chalupy from './Chalupy';
 
 const Projects = () => {
     return (
@@ -24,7 +25,7 @@ const Projects = () => {
                         Mé vybrané projekty
                     </h2>
                 </div>
-
+                <Chalupy/>
                 <Kemp />
             </motion.div>
         </>

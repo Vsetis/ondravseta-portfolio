@@ -1,15 +1,14 @@
 import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { MdEmail, MdPhoneIphone } from 'react-icons/md';
-import { BiArrowFromBottom } from 'react-icons/bi';
+import { ImArrowUp2 } from 'react-icons/im';
 export default function Contact() {
     const links = [{ name: '', target: '#' }];
     const socials = [
-        { target: 'https://github.com/Vsetis', icon: AiFillGithub, id: 1 },
+        { target: 'https://github.com/Vsetis', icon: AiFillGithub },
         {
             target: 'https://www.instagram.com/ondra_vseta/',
             icon: AiFillInstagram,
-            id: 2,
         },
     ];
     function scroll() {
@@ -44,14 +43,18 @@ export default function Contact() {
                         </Link>
                     </div>
                     <div className="flex flex-row">
-                        <button onClick={scroll}>
-                            <BiArrowFromBottom className="dark:bg-white/60 bg-black/80 text-white dark:text-black hover:bg-black dark:hover:bg-white/80 transition-all duration-300  w-12 h-12 rounded-full p-2" />
+                        <button
+                            className="flex flex-row items-center gap-4 underline transition-all dark:text-white hover:opacity-80"
+                            onClick={scroll}
+                        >
+                            <ImArrowUp2 className="animate-bounce" />
+                            <p className="font-semibold">NAHORU</p>
                         </button>
                     </div>
                     <div className="flex flex-col  justify-between">
                         <div className="flex flex-row md:self-end">
-                            {socials.map((social) => (
-                                <Link key={social.id} href={social.target}>
+                            {socials.map((social, index) => (
+                                <Link key={index} href={social.target}>
                                     <social.icon className="w-8 h-8 md:ml-2 md:mt-0  mt-8 mr-5 md:mr-0" />
                                 </Link>
                             ))}
