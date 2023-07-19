@@ -4,7 +4,6 @@ import Hero from '@/components/Hero/Hero';
 import Navbar from '@/components/Menu/Navbar';
 import Benefits from '@/components/Benefits/Benefits';
 import Projects from '@/components/Work/Projects';
-import WordPress from '@/components/WordPress/WordPress';
 
 export default function Home() {
     return (
@@ -13,7 +12,6 @@ export default function Home() {
             <Hero />
             <About />
             <Benefits />
-            <WordPress />
             <Projects />
             <Contact />
         </>
