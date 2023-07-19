@@ -56,7 +56,7 @@ export default function About() {
                                 Mé zkušenosti
                             </h2>
                             <div className="md:w-[25%] w-[75%] h-[2px] bg-black dark:bg-white/90 mb-8" />
-                            <div className="flex text-black/70 dark:text-white/80 items-center gap-12">
+                            <div className="flex text-black/70 dark:text-white/80 items-center gap-6 xl:gap-12">
                                 {skills.map((skill, index) => (
                                     <div
                                         className="flex flex-col items-center"
