@@ -22,7 +22,7 @@ export default function Kemp() {
                     </h2>
                     <p className="text-[16px]  text-black/70 dark:text-white/90">
                         Kemp pod Pustevnami jsou webové stránky kempu. Dozvíte
-                        se zde veškeré informace, <br /> jako jsou např. Ceník,
+                        se zde veškeré informace, jako jsou např. Ceník,
                         Aktuality z kempu a také se můžete mrknout na tipy na
                         výlety.
                     </p>
