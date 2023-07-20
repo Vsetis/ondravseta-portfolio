@@ -43,7 +43,7 @@ export default function Kemp() {
                         </Link>
                         <Link
                             className="flex items-center transition-all hover:opacity-80"
-                            href="https://www.chalupykarolinka.cz/"
+                            href="http://www.ghosty.cz/"
                             target="_blank"
                         >
                             <GhostyLogo />
