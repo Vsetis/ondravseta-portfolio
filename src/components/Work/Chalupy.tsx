@@ -5,7 +5,7 @@ import GhostyLogo from '../GhostyLogo';
 export default function Kemp() {
     return (
         <>
-            <div className="flex md:flex-row flex-col justify-between my-12 xl:gap-32">
+            <div className="flex md:flex-row flex-col justify-between my-16 md:gap-32">
                 <div className="order-2 md:order-1">
                     <Link
                         href="https://www.chalupykarolinka.cz/"
@@ -20,7 +20,7 @@ export default function Kemp() {
                         />
                     </Link>
                 </div>
-                <div className="order-1 md:order-2 md:ml-16 xl:w-[40%]">
+                <div className="order-1 md:order-2 md:w-[50%] xl:w-[40%]">
                     <h2 className="text-2xl font-bold mb-4">
                         Chalupy Karolinka
                     </h2>

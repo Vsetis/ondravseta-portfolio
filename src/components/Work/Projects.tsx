@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import Kemp from './Kemp';
 import Chalupy from './Chalupy';
+import Cafebar from './Cafebar';
+import PRInsights from './PRInsights';
 
 const Projects = () => {
     return (
@@ -25,7 +27,9 @@ const Projects = () => {
                         Mé vybrané projekty
                     </h2>
                 </div>
-                <Chalupy/>
+                <PRInsights />
+                <Cafebar />
+                <Chalupy />
                 <Kemp />
             </motion.div>
         </>
