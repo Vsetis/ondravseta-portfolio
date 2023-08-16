@@ -6,11 +6,11 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { motion } from 'framer-motion';
 export default function About() {
     const skills = [
-        { title: ' NextJS', icon: TbBrandNextjs },
+        { title: 'NextJS', icon: TbBrandNextjs },
         { title: 'NuxtJS', icon: SiNuxtdotjs },
-        { title: ' TailwindCSS', icon: SiTailwindcss },
-        { title: ' HTML', icon: AiFillHtml5 },
-        { title: ' MySQL', icon: GrMysql },
+        { title: 'TailwindCSS', icon: SiTailwindcss },
+        { title: 'HTML', icon: AiFillHtml5 },
+        { title: 'MySQL', icon: GrMysql },
     ];
     return (
         <>
