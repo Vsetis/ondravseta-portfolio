@@ -7,7 +7,7 @@ export default function Cafebar() {
             <div className="flex md:flex-row flex-col justify-between my-16 md:gap-32">
                 <div className="order-2 md:order-1">
                     <Link
-                        href="https://cafebar-u-medvidku-o5isdix5z-vsetis.vercel.app/"
+                        href="https://cafebar-u-medvidku.vercel.app/"
                         target="_blank"
                     >
                         <Image
@@ -34,7 +34,7 @@ export default function Cafebar() {
                     </p>
                     <Link
                         className="flex items-center mb-8"
-                        href="https://cafebar-u-medvidku-o5isdix5z-vsetis.vercel.app/"
+                        href="https://cafebar-u-medvidku.vercel.app/"
                         target="_blank"
                     >
                         <FiLink className="w-5 h-5 mr-2" /> Odkaz na web
