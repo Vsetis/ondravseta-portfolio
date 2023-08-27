@@ -29,7 +29,7 @@ export default function Cards() {
             <div className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 mt-16">
                 {cards.map((card) => (
                     <motion.div
-                        initial={{ opacity: 0, y: '50%' }}
+                        initial={{ opacity: 0, y: '25%' }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: card.delay, duration: 0.5 }}
                         viewport={{ amount: 0.5 }}
