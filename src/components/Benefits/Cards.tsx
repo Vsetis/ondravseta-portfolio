@@ -21,7 +21,7 @@ export default function Cards() {
             delay: 0.9,
             icon: MdDesignServices,
             content:
-                'Je důležité, aby Vaše webové stránky na první pohled zaujaly Vaše zákazníky, a proto by měl být web moderní a přehledný.',
+                'Je důležité, aby Vaše webové stránky na první pohled zaujaly Vaše publikum, a proto by měl být web moderní a přehledný.',
         },
     ];
     return (

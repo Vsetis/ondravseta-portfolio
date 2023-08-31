@@ -7,13 +7,15 @@ export default function Kemp() {
             <div className="flex md:flex-row flex-col justify-between my-16 md:gap-32">
                 <div className="order-2 md:order-1">
                     <Link href="https://www.podpustevnami.cz/" target="_blank">
-                        <Image
-                            className="transition-all hover:scale-[101%] w-full h-[230px] xl:h-[280px] rounded-[15px] border shadow-md"
-                            src="/Kemp.png"
-                            alt="Kemp pod Pustevnami"
-                            width={1920}
-                            height={1080}
-                        />
+                        <div className="relative transition-all hover:scale-[101%] min-w-[100%] md:min-w-[550px] h-[230px] xl:h-[280px] rounded-[15px]  shadow-md">
+                            <Image
+                                className="absolute w-full h-full object-cover rounded-[15px]"
+                                src="/Kemp.png"
+                                alt="Kemp pod Pustevnami"
+                                width={1920}
+                                height={1080}
+                            />
+                        </div>
                     </Link>
                 </div>
                 <div className="order-1 md:order-2 md:w-[50%] xl:w-[40%]">
