@@ -3,6 +3,7 @@ import Kemp from './Kemp';
 import Chalupy from './Chalupy';
 import Cafebar from './Cafebar';
 import PRInsights from './PRInsights';
+import IssueTracker from './IssueTracker';
 
 const Projects = () => {
     return (
@@ -20,6 +21,7 @@ const Projects = () => {
                         Mé vybrané projekty
                     </h2>
                 </div>
+                <IssueTracker />
                 <PRInsights />
                 <Cafebar />
                 <Chalupy />

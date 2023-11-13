@@ -26,10 +26,10 @@ export default function Cafebar() {
                         Cafebar U Medvídků
                     </h2>
                     <p className="text-[16px]  text-black/70 dark:text-white/90">
-                        Webové stránky pro Cafebar U Medvídků. Jedná se o
-                        informativní stránky pro kavárnu, které jsou vytvořeny v
-                        jednoduchém a přehledném designu, pomocí frameworku
-                        NextJS a TailwindCSS.
+                        Webové stránky pro Cafebar U Medvídků. Informativní
+                        stránky pro kavárnu, které jsou vytvořeny v jednoduchém
+                        a přehledném designu, pomocí frameworku NextJS a
+                        TailwindCSS.
                     </p>
                     <p className="text-lg font-bold mt-3 mb-3">
                         NextJS, TailwindCSS
