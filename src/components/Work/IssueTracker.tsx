@@ -1,6 +1,3 @@
-import Link from 'next/link';
-import { FiLink } from 'react-icons/fi';
-import Image from 'next/image';
 import WorkItem from './WorkItem';
 
 export default function IssueTracker() {
