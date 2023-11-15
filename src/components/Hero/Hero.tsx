@@ -13,14 +13,14 @@ export default function Hero() {
     return (
         <>
             <div className="overflow-hidden w-full px-8 ">
-                <motion.div className="container mx-auto flex lg:flex-row flex-col items-center lg:items-start justify-between  md:py-40 pt-32">
-                    <div className="flex flex-col items-end md:items-start">
+                <motion.div className="container mx-auto flex lg:flex-row flex-col items-center lg:items-start justify-between lg:mt-40">
+                    <div className="flex flex-col items-center md:items-start">
                         <motion.h1
                             initial={{ opacity: 0, y: '25%' }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.3 }}
                             viewport={{ once: true }}
-                            className="leading-tight relative md:text-start text-5xl md:text-6xl font-bold  "
+                            className="leading-tight relative text-center md:text-start text-5xl md:text-6xl font-bold  "
                         >
                             <span className='before:absolute  before:content-["Jsem_Web_Designér"] '>
                                 <span
@@ -46,7 +46,7 @@ export default function Hero() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.6 }}
                             viewport={{ once: true }}
-                            className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 md:max-w-[60%]"
+                            className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 md:max-w-[60%] text-center md:text-start"
                         >
                             Proměním Váš web v moderní a přehlednou vizitku Vaši
                             společnosti nebo osoby.

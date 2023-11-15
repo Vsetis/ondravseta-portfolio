@@ -20,14 +20,13 @@ export default function About() {
                 <div className="flex flex-col md:flex-row justify-between ">
                     <div className="md:mr-8 ">
                         <div>
-                            <div className="flex flex-row items-center md:justify-start justify-center">
+                            <div className="flex flex-row items-center">
                                 <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 mr-2" />
                                 <h2 className="font-semibold text-xs text-zinc-700 dark:text-white/30 ">
                                     O MNĚ
                                 </h2>
-                                <div className="bg-zinc-700 dark:bg-white/30 w-4 h-0.5 ml-2 md:hidden" />
                             </div>
-                            <h2 className="font-bold text-4xl text-center md:text-start mb-4 ">
+                            <h2 className="font-bold text-4xl mb-4 ">
                                 Něco málo o mně
                             </h2>
                         </div>

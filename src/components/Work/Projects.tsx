@@ -20,11 +20,13 @@ export default function Projects() {
                         Mé vybrané projekty
                     </h2>
                 </div>
-                <IssueTracker />
-                <PRInsights />
-                <Cafebar />
-                <Chalupy />
-                <Kemp />
+                <div className="flex flex-col gap-16">
+                    <IssueTracker />
+                    <PRInsights />
+                    <Cafebar />
+                    <Chalupy />
+                    <Kemp />
+                </div>
             </div>
         </>
     );
