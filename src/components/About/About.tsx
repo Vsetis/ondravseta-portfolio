@@ -3,15 +3,17 @@ import { TiCss3 } from 'react-icons/ti';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import { FaReact, FaVuejs, FaFigma } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+
+const skills = [
+    { title: 'React', icon: FaReact, delay: 0 },
+    { title: 'Vue', icon: FaVuejs, delay: 0.3 },
+    { title: 'TailwindCSS', icon: SiTailwindcss, delay: 0.6 },
+    { title: 'HTML', icon: AiOutlineHtml5, delay: 0.9 },
+    { title: 'CSS', icon: TiCss3, delay: 1.2 },
+    { title: 'Figma', icon: FaFigma, delay: 1.5 },
+];
+
 export default function About() {
-    const skills = [
-        { title: 'React', icon: FaReact, delay: 0 },
-        { title: 'Vue', icon: FaVuejs, delay: 0.3 },
-        { title: 'TailwindCSS', icon: SiTailwindcss, delay: 0.6 },
-        { title: 'HTML', icon: AiOutlineHtml5, delay: 0.9 },
-        { title: 'CSS', icon: TiCss3, delay: 1.2 },
-        { title: 'Figma', icon: FaFigma, delay: 1.5 },
-    ];
     return (
         <>
             <div id="About" className="container mx-auto  px-8  py-[128px]">

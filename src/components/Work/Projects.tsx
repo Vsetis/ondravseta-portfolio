@@ -1,11 +1,10 @@
-import { motion } from 'framer-motion';
 import Kemp from './Kemp';
 import Chalupy from './Chalupy';
 import Cafebar from './Cafebar';
 import PRInsights from './PRInsights';
 import IssueTracker from './IssueTracker';
 
-const Projects = () => {
+export default function Projects() {
     return (
         <>
             <div id="Projects" className="container mx-auto px-8  py-[32px]">
@@ -29,5 +28,4 @@ const Projects = () => {
             </div>
         </>
     );
-};
-export default Projects;
+}

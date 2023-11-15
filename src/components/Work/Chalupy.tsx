@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { FiLink } from 'react-icons/fi';
 import Image from 'next/image';
-import GhostyLogo from '../GhostyLogo';
-export default function Kemp() {
+
+export default function Chalupy() {
     return (
         <>
             <div className="flex md:flex-row flex-col justify-between my-16 md:gap-32">
@@ -48,7 +48,11 @@ export default function Kemp() {
                             href="http://www.ghosty.cz/"
                             target="_blank"
                         >
-                            <GhostyLogo />
+                            <img
+                                className="w-auto h-9 fill-black dark:fill-white mx-auto"
+                                src="/ghosty-logo.svg"
+                                alt="ghosty digidal s.r.o logo"
+                            />
                         </Link>
                     </div>
                 </div>

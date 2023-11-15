@@ -3,11 +3,13 @@ import Style from '@/styles/Text.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-const Hero = () => {
-    const buttons = [
-        { title: 'Portfolio', target: '#Projects' },
-        { title: 'Kontakt', target: '#Contact' },
-    ];
+
+const buttons = [
+    { title: 'Portfolio', target: '#Projects' },
+    { title: 'Kontakt', target: '#Contact' },
+];
+
+export default function Hero() {
     return (
         <>
             <div className="overflow-hidden w-full px-8 ">
@@ -29,7 +31,7 @@ const Hero = () => {
                             </span>
                             <br />
                             <span
-                                className='before:absolute 
+                                className='before:absolute
             before:left-0 before:content-["a_Front-End_Developer"]  '
                             >
                                 <span
@@ -87,6 +89,4 @@ const Hero = () => {
             </div>
         </>
     );
-};
-
-export default Hero;
+}

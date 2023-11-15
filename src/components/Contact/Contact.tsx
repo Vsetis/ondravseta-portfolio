@@ -2,15 +2,16 @@ import Link from 'next/link';
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { MdEmail, MdPhoneIphone } from 'react-icons/md';
 import { ImArrowUp2 } from 'react-icons/im';
+
+const socials = [
+    { target: 'https://github.com/Vsetis', icon: AiFillGithub },
+    {
+        target: 'https://www.instagram.com/ondra_vseta/',
+        icon: AiFillInstagram,
+    },
+];
+
 export default function Contact() {
-    const links = [{ name: '', target: '#' }];
-    const socials = [
-        { target: 'https://github.com/Vsetis', icon: AiFillGithub },
-        {
-            target: 'https://www.instagram.com/ondra_vseta/',
-            icon: AiFillInstagram,
-        },
-    ];
     function scroll() {
         window.scroll({
             top: 0,
@@ -18,6 +19,7 @@ export default function Contact() {
             behavior: 'smooth',
         });
     }
+
     return (
         <>
             <div

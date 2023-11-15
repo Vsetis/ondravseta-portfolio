@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { FiLink } from 'react-icons/fi';
 import Image from 'next/image';
-export default function Cafebar() {
+
+export default function IssueTracker() {
     return (
         <>
             <div className="flex md:flex-row flex-col justify-between my-16 md:gap-32">
