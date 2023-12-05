@@ -12,7 +12,7 @@ const buttons = [
 export default function Hero() {
   return (
     <>
-      <div className="overflow-hidden w-full px-8 mt-24">
+      <div className="overflow-hidden w-full px-8 md:min-h-screen min-h-0 md:mt-0 mt-24">
         <motion.div className="container mx-auto flex lg:flex-row flex-col items-center lg:items-start justify-between lg:mt-40">
           <div className="flex flex-col items-center md:items-start">
             <motion.h1
