@@ -1,12 +1,15 @@
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 const socials = [
-    { target: 'https://github.com/Vsetis', icon: AiFillGithub, id: 1 },
+    { target: 'https://github.com/Vsetis', icon: AiFillGithub },
+    {
+        target: 'https://www.linkedin.com/in/ond%C5%99ej-v%C5%A1eti%C4%8Dka-7376a0271/',
+        icon: AiFillLinkedin,
+    },
     {
         target: 'https://www.instagram.com/modernweb.cz/',
         icon: AiFillInstagram,
-        id: 2,
     },
 ];
 
@@ -16,9 +19,9 @@ export default function Socials() {
             <div className="flex ">
                 {socials.map((social) => (
                     <Link
-                        key={social.id}
+                        key={social.target}
                         href={social.target}
-                        className="mr-8"
+                        className="mr-8 transition-all hover:scale-105"
                         target="_blank"
                     >
                         <social.icon className="w-8 h-8" />
