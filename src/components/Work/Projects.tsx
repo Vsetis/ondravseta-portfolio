@@ -3,6 +3,7 @@ import Chalupy from './Chalupy';
 import Cafebar from './Cafebar';
 import PRInsights from './PRInsights';
 import IssueTracker from './IssueTracker';
+import Abivia from './Abivia';
 
 export default function Projects() {
     return (
@@ -22,6 +23,7 @@ export default function Projects() {
                 </div>
                 <div className="flex flex-col gap-16">
                     <IssueTracker />
+                    <Abivia />
                     <PRInsights />
                     <Cafebar />
                     <Chalupy />
