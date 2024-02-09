@@ -3,7 +3,7 @@ import WorkItem from './WorkItem';
 export default function Abivia() {
     return (
         <WorkItem
-            previewLink={'https://cafebar-u-medvidku.vercel.app/'}
+            previewLink={'https://abivia.cz'}
             img={{
                 src: '/abivia.png',
                 alt: 'abivia.cz',
