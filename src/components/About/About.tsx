@@ -1,22 +1,26 @@
-import { SiTailwindcss } from 'react-icons/si';
+import {SiBabylondotjs, SiGraphql, SiNestjs, SiNodedotjs, SiTailwindcss} from 'react-icons/si';
 import { TiCss3 } from 'react-icons/ti';
 import { AiOutlineHtml5 } from 'react-icons/ai';
 import { FaReact, FaVuejs, FaFigma } from 'react-icons/fa';
-import { SiTrpc, SiExpress } from 'react-icons/si';
+import { SiTrpc } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const skills = [
     { title: 'React', icon: FaReact, delay: 0 },
-    { title: 'Vue', icon: FaVuejs, delay: 0.3 },
-    { title: 'tRPC', icon: SiTrpc, delay: 0.5 },
-    { title: 'Express.js', icon: SiExpress, delay: 0.8 },
-    { title: 'TailwindCSS', icon: SiTailwindcss, delay: 0.9 },
-    { title: 'HTML', icon: AiOutlineHtml5, delay: 1.2 },
-    { title: 'CSS', icon: TiCss3, delay: 1.5 },
-    { title: 'Figma', icon: FaFigma, delay: 1.8 },
+    { title: 'Vue', icon: FaVuejs, delay: 0.1 },
+    { title: 'Node', icon: SiNodedotjs, delay: 0.2 },
+    { title: 'tRPC', icon: SiTrpc, delay: 0.3 },
+    {title: "NestJS", icon: SiNestjs, delay: 0.4},
+    { title: 'GraphQL', icon: SiGraphql, delay: 0.5 },
+    {title: 'BabylonJS', icon: SiBabylondotjs, delay: 0.6},
+    { title: 'TailwindCSS', icon: SiTailwindcss, delay: 0.7 },
+    { title: 'HTML', icon: AiOutlineHtml5, delay: 0.8 },
+    { title: 'CSS', icon: TiCss3, delay: 0.9 },
+    { title: 'Figma', icon: FaFigma, delay: 1 },
 ];
 
 export default function About() {
+    const age = new Date().getFullYear() - 2004;
     return (
         <>
             <div id="About" className="container mx-auto  px-8  py-[128px]">
@@ -33,9 +37,9 @@ export default function About() {
                                 Něco málo o mně
                             </h2>
                         </div>
-                        <div className="text-md text-center md:text-start  text-black/70 dark:text-white/90 mb-4 max-w-md">
+                        <div className="text-md font-medium text-center md:text-start  text-black/70 dark:text-white/90 mb-4 max-w-md">
                             <p className="text-justify">
-                                Jmenuji se Ondřej Všetička, je mi 19 let. Jsem
+                                Jmenuji se Ondřej Všetička, je mi {age} let. Jsem
                                 velký fanoušek technologií a každý den se učím
                                 novým věcem. Věnuji se převážně vývoji, ale také
                                 designu.
@@ -66,8 +70,8 @@ export default function About() {
                                     className="flex flex-col items-center"
                                     key={index}
                                 >
-                                    <skill.icon className="md:w-10 md:h-10 w-8 h-8 mb-2" />
-                                    <p className="text-center font-bold text-xs">
+                                    <skill.icon className="md:w-8 md:h-8 w-5 h-5 mb-2" />
+                                    <p className="text-center font-bold text-[10px]">
                                         {skill.title}
                                     </p>
                                 </motion.div>

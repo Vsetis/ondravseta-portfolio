@@ -5,7 +5,7 @@ export default function Kemp() {
         <WorkItem
             previewLink={'https://www.podpustevnami.cz/'}
             img={{
-                src: '/Kemp.png',
+                src: '/kemp.png',
                 alt: 'Kemp pod Pustevnami',
             }}
             title={'Kemp pod Pustevnami'}

@@ -4,6 +4,7 @@ import Cafebar from './Cafebar';
 import PRInsights from './PRInsights';
 import IssueTracker from './IssueTracker';
 import Abivia from './Abivia';
+import Amosol from "@/components/Work/Amosol";
 
 export default function Projects() {
     return (
@@ -22,6 +23,7 @@ export default function Projects() {
                     </h2>
                 </div>
                 <div className="flex flex-col gap-16">
+                    <Amosol/>
                     <IssueTracker />
                     <Abivia />
                     <PRInsights />

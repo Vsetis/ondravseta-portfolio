@@ -20,24 +20,24 @@ export default function Hero() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.3 }}
                             viewport={{ once: true }}
-                            className="leading-tight relative text-center md:text-start text-5xl md:text-6xl font-bold  "
+                            className="leading-tight relative text-center md:text-start text-5xl md:text-6xl font-bold"
                         >
-                            <span className='before:absolute before:left-0 before:w-full before:content-["Jsem_Web_Designér"]'>
+                            <span className='leading-tight before:absolute before:left-0 before:w-full before:content-["Dobrý_den,_jmenuji_se"]'>
                                 <span
                                     className={`${Style.AnimatedText} bg-gradient-to-r from-[#576CBC] to-purple-600 bg-clip-text text-transparent`}
                                 >
-                                    Jsem Web Designér
+                                    Dobrý den, jmenuji se
                                 </span>
                             </span>
                             <br />
                             <span
-                                className='before:absolute
-            before:left-0 before:content-["a_Fullstack_developer"] before:w-full '
+                                className='before:absolute leading-tight
+            before:left-0 before:content-["_Ondřej_Všetička"] before:w-full '
                             >
                                 <span
                                     className={`${Style.AnimatedText2} bg-gradient-to-r from-purple-700 to-[#576CBC] dark:from-white  dark:to-[#576CBC] bg-clip-text text-transparent`}
                                 >
-                                    a Fullstack developer
+                                    Ondřej Všetička
                                 </span>
                             </span>
                         </motion.h1>
@@ -48,8 +48,7 @@ export default function Hero() {
                             viewport={{ once: true }}
                             className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 max-w-[80%] md:max-w-[60%] text-center md:text-start"
                         >
-                            Proměním Váš web v moderní a přehlednou vizitku Vaši
-                            společnosti nebo osoby.
+                            Jsem fullstack vývojář s citem pro design. Pokud hledáte webové stránky pro vás nebo vaši společnost, jste na správném místě.
                         </motion.p>
                         <motion.div
                             initial={{ opacity: 0, y: '25%' }}
@@ -75,14 +74,14 @@ export default function Hero() {
                         whileInView={{ rotateY: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 1.2 }}
                         viewport={{ once: true }}
-                        className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black  w-auto h-auto md:w-[450px] md:h-[450px] relative   overflow-hidden my-16 lg:my-0 `}
+                        className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black  w-auto h-auto md:w-[700px] md:h-[450px] relative   overflow-hidden my-16 lg:my-0 `}
                     >
                         <Image
-                            src="/me.png"
-                            className="h-full  w-full"
-                            alt="Picture of me"
-                            width={500}
-                            height={500}
+                            src="/ondrej_vseticka.png"
+                            className="h-full  w-full object-cover"
+                            alt="Ondrej Vseticka, fullstack developer with design sense."
+                            width={700}
+                            height={700}
                         />
                     </motion.div>
                 </motion.div>

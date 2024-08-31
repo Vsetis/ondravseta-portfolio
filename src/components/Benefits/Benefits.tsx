@@ -9,11 +9,11 @@ export default function Services() {
                     <motion.h2
                         initial={{ opacity: 0, y: '100%' }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ amount: 1 }}
+                        viewport={{ amount: 1, once: true }}
                         transition={{ duration: 0.5 }}
                         className="text-4xl font-bold text-center"
                     >
-                        Co Vám mohu nabídnout
+                       Nabízím vám
                     </motion.h2>
                     <Cards />
                 </div>

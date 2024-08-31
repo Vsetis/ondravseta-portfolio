@@ -7,21 +7,21 @@ const cards = [
         delay: 0.3,
         icon: MdWebAsset,
         content:
-            'Nabízím Vám kompletní vývoj moderních a přehledných webových stránek. Od návrhu až po finální verzi webu se postarám osobně já.',
+            'Nabízím Vám kompletní vývoj webových stránek. Od návrhu až po finální verzi webu se postarám osobně já.',
     },
     {
         title: 'Osobní Přístup',
         delay: 0.6,
         icon: MdPerson,
         content:
-            'Budu se snažit Vám ulehčit co nejvíce práce, prvotní návrh webu nabízím zdarma a po dobu celé spolupráce se Vám budu snažit pomáhat.',
+            'Budu se snažit Vám ulehčit co nejvíce práce, prvotní návrh webu nabízím ZDARMA a po dobu celé spolupráce se Vám budu snažit pomáhat.',
     },
     {
         title: 'Moderní Design',
         delay: 0.9,
         icon: MdDesignServices,
         content:
-            'Je důležité, aby Vaše webové stránky na první pohled zaujaly Vaše publikum, a proto by měl být web moderní a přehledný.',
+            'Je důležité, aby vaše webové stránky na první pohled zaujaly vaše publikum. Proto by měly být jedinečné a hlavně přehledné.',
     },
 ];
 
@@ -34,7 +34,7 @@ export default function Cards() {
                         initial={{ opacity: 0, y: '25%' }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: card.delay, duration: 0.5 }}
-                        viewport={{ amount: 0.5 }}
+                        viewport={{ amount: 0.5, once: true }}
                         className="p-8 shadow-lg shadow-black/20   dark:shadow-inner dark:shadow-white/10 dark:border-white/20 dark:text-white/90 "
                         key={card.title}
                     >

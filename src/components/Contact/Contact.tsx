@@ -62,7 +62,7 @@ export default function Contact() {
                             ))}
                         </div>
                         <div className="w-full h-[2px] md:my-8 my-4 bg-black dark:bg-white" />
-                        <h2>© 2023 Ondřej Všetička</h2>
+                        <h2>© 2023 - {new Date().getFullYear()} Ondřej Všetička</h2>
                     </div>
                 </div>
             </div>

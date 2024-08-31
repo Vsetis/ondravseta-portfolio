@@ -5,7 +5,7 @@ export default function Cafebar() {
         <WorkItem
             previewLink={'https://cafebar-u-medvidku.vercel.app/'}
             img={{
-                src: '/Cafebar.png',
+                src: '/cafebar.png',
                 alt: 'Cafebar U Medvidku',
             }}
             title={'Cafebar U Medvídků'}
