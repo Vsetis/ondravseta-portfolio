@@ -34,23 +34,19 @@ export default function About() {
                                 </h2>
                             </div>
                             <h2 className="font-bold text-4xl mb-4 ">
-                                Něco málo o mně
+                                Dovolte, abych se představil
                             </h2>
                         </div>
                         <div className="text-md font-medium text-center md:text-start  text-black/70 dark:text-white/90 mb-4 max-w-md">
                             <p className="text-justify">
                                 Jmenuji se Ondřej Všetička, je mi {age} let. Jsem
                                 velký fanoušek technologií a každý den se učím
-                                novým věcem. Věnuji se převážně vývoji, ale také
-                                designu.
+                                novým věcem. Aktuálně se věnuji programování webových aplikací, jako fullstack vývojář.
                             </p>
                             <p className="mt-2 text-justify">
-                                Nemám rád zastaralé technologie, a proto weby
-                                tvořím pomocí nejmodernějších technologií.
-                                Osobně si myslím, že v každém oboru bychom měli
-                                jít s dobou.
+                                Nemám rád technologie, které jsou „sto let za 🙊“, a proto ocením práci s moderními technologiemi. Osobně si myslím, že v každém oboru bychom měli jít s dobou, obzvlášť v IT.
                             </p>
-                        </div>
+                     </div>
                     </div>
                     <div className="flex flex-col items-center md:items-end mt-8 md:mt-0">
                         <h2 className="text-end text-4xl font-bold">

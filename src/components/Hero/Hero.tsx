@@ -22,11 +22,11 @@ export default function Hero() {
                             viewport={{ once: true }}
                             className="leading-tight relative text-center md:text-start text-5xl md:text-6xl font-bold"
                         >
-                            <span className='leading-tight before:absolute before:left-0 before:w-full before:content-["Dobrý_den,_jmenuji_se"]'>
+                            <span className='leading-tight before:absolute before:left-0 before:w-full before:content-["Dobrý_den👋,_jmenuji_se"]'>
                                 <span
                                     className={`${Style.AnimatedText} bg-gradient-to-r from-[#576CBC] to-purple-600 bg-clip-text text-transparent`}
                                 >
-                                    Dobrý den, jmenuji se
+                                    Dobrý den👋, jmenuji se
                                 </span>
                             </span>
                             <br />
@@ -40,6 +40,7 @@ export default function Hero() {
                                     Ondřej Všetička
                                 </span>
                             </span>
+
                         </motion.h1>
                         <motion.p
                             initial={{ opacity: 0, y: '25%' }}
@@ -48,7 +49,7 @@ export default function Hero() {
                             viewport={{ once: true }}
                             className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 max-w-[80%] md:max-w-[60%] text-center md:text-start"
                         >
-                            Jsem fullstack vývojář s citem pro design. Pokud hledáte webové stránky pro vás nebo vaši společnost, jste na správném místě.
+                            Jsem fullstack vývojář s citem pro design. Pokud pohledáváte webovou aplikaci nebo prezentaci pro vás, či vaši společnost, jste na správném místě.
                         </motion.p>
                         <motion.div
                             initial={{ opacity: 0, y: '25%' }}
@@ -59,7 +60,7 @@ export default function Hero() {
                         >
                             {buttons.map((button) => (
                                 <Link
-                                    className="md:mr-4 ml-4 md:ml-0 px-8 py-2 rounded-full bg-[#576CBC]/90 text-white last:bg-black/80 dark:last:bg-white/80 dark:text-black hover:bg-[#576CBC] dark:hover:bg-[#576CBC]/70 transition-all duration-300 last:hover:bg-black last:dark:hover:bg-white/60"
+                                    className="text-sm md:mr-4 font-medium ml-4 md:ml-0 px-8 py-3 rounded-md bg-[#576CBC]/90 text-white/80 last:bg-black/80 dark:last:bg-white/80 dark:text-black hover:bg-[#576CBC] dark:hover:bg-[#576CBC]/70 transition-all duration-300 last:hover:bg-black last:dark:hover:bg-white/60"
                                     key={button.target}
                                     href={button.target}
                                     scroll={false}
@@ -74,7 +75,7 @@ export default function Hero() {
                         whileInView={{ rotateY: 0, opacity: 1 }}
                         transition={{ duration: 0.5, delay: 1.2 }}
                         viewport={{ once: true }}
-                        className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black  w-auto h-auto md:w-[700px] md:h-[450px] relative   overflow-hidden my-16 lg:my-0 `}
+                        className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black  w-auto h-auto lg:w-[750px] md:h-[450px] relative overflow-hidden my-16 lg:my-0 `}
                     >
                         <Image
                             src="/ondrej_vseticka.png"
