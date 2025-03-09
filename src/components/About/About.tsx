@@ -20,7 +20,8 @@ const skills = [
 ];
 
 export default function About() {
-    const age = new Date().getFullYear() - 2004;
+    const age = Math.floor((new Date().getTime() - new Date('2004-06-16').getTime()) / (1000 * 60 * 60 * 24 * 365.25));
+
     return (
         <>
             <div id="About" className="container mx-auto  px-8  py-[128px]">
@@ -41,7 +42,7 @@ export default function About() {
                             <p className="text-justify">
                                 Jmenuji se Ondřej Všetička, je mi {age} let. Jsem
                                 velký fanoušek technologií a každý den se učím
-                                novým věcem. Aktuálně se věnuji programování webových aplikací, jako fullstack vývojář.
+                                novým věcem. Aktuálně se věnuji programování webových aplikací, jako frontend vývojář.
                             </p>
                             <p className="mt-2 text-justify">
                                 Nemám rád technologie, které jsou „sto let za 🙊“, a proto ocením práci s moderními technologiemi. Osobně si myslím, že v každém oboru bychom měli jít s dobou, obzvlášť v IT.

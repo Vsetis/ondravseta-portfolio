@@ -4,7 +4,7 @@ import { HiOutlineBars2, HiXMark } from 'react-icons/hi2';
 import ChangeTheme from '../ChangeTheme';
 
 const links = [
-    { name: 'Home', target: '/#', id: 1 },
+    { name: 'Úvod', target: '/#', id: 1 },
     { name: 'O mně', target: '/#About', id: 2 },
     { name: 'Portfolio', target: '/#Projects', id: 4 },
     { name: 'Kontakt', target: '/#Contact', id: 5 },

@@ -49,7 +49,7 @@ export default function Hero() {
                             viewport={{ once: true }}
                             className="md:text-lg text-base dark:text-white text-black/70 font-semibold mt-3 mb-8 max-w-[80%] md:max-w-[60%] text-center md:text-start"
                         >
-                            Jsem fullstack vývojář s citem pro design. Pokud pohledáváte webovou aplikaci nebo prezentaci pro vás, či vaši společnost, jste na správném místě.
+                            Jsem frontend vývojář s citem pro design. Pokud pohledáváte webovou aplikaci nebo prezentaci pro vás, či vaši společnost, jste na správném místě.
                         </motion.p>
                         <motion.div
                             initial={{ opacity: 0, y: '25%' }}
@@ -78,7 +78,7 @@ export default function Hero() {
                         className={`${styles.animatedImg} !border-[4px] dark:border-white/90 border-black  w-auto h-auto lg:w-[750px] md:h-[450px] relative overflow-hidden my-16 lg:my-0 `}
                     >
                         <Image
-                            src="/ondrej_vseticka.png"
+                            src="/ondrej_vseticka.jpg"
                             className="h-full  w-full object-cover"
                             alt="Ondrej Vseticka, fullstack developer with design sense."
                             width={700}
