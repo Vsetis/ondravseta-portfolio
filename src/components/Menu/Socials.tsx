@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const socials = [
     { target: 'https://github.com/Vsetis', icon: AiFillGithub },
@@ -7,10 +7,7 @@ const socials = [
         target: 'https://www.linkedin.com/in/ond%C5%99ej-v%C5%A1eti%C4%8Dka-7376a0271/',
         icon: AiFillLinkedin,
     },
-    {
-        target: 'https://www.instagram.com/modernweb.cz/',
-        icon: AiFillInstagram,
-    },
+
 ];
 
 export default function Socials() {

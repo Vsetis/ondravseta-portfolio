@@ -1,13 +1,13 @@
 import Link from 'next/link';
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { MdEmail, MdPhoneIphone } from 'react-icons/md';
 import { ImArrowUp2 } from 'react-icons/im';
 
 const socials = [
     { target: 'https://github.com/Vsetis', icon: AiFillGithub },
     {
-        target: 'https://www.instagram.com/ondra_vseta/',
-        icon: AiFillInstagram,
+        target: 'https://www.linkedin.com/in/ond%C5%99ej-v%C5%A1eti%C4%8Dka-7376a0271/',
+        icon: AiFillLinkedin,
     },
 ];
 
@@ -35,13 +35,6 @@ export default function Contact() {
                         >
                             <MdEmail className="h-5 w-5 mr-2" />
                             ondravseta@email.cz
-                        </Link>
-                        <Link
-                            className="flex items-center"
-                            href="tel:+420 736 137 654"
-                        >
-                            <MdPhoneIphone className="h-5 w-5 mr-2" />
-                            +420 736 137 654
                         </Link>
                     </div>
                     <div className="flex flex-row">
