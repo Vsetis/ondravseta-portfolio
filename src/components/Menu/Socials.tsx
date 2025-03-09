@@ -7,7 +7,6 @@ const socials = [
         target: 'https://www.linkedin.com/in/ond%C5%99ej-v%C5%A1eti%C4%8Dka-7376a0271/',
         icon: AiFillLinkedin,
     },
-
 ];
 
 export default function Socials() {
